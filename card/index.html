@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black ">
+		<meta name="theme-color" content="#2196f3">
+		<title>阿斗云名片</title>
+		<link rel="stylesheet" href="css/framework7.ios.css">
+    	<link rel="stylesheet" href="css/my-app.css">
+	</head>
+	
+	<body>
+		<!--所有视图-->
+		<div class="views">
+			<div class="view view-main">
+				<div class="pages navbar-fixed">
+					<div data-page="index" class="page">
+							<!--顶部-->
+							<div class="navbar" id="first-page">
+									搜贴
+							</div>						
+							<!--首页切换页面-->
+							<div class="tabs-animated-wrap">
+								<div class="tabs">								
+									<!--首页-->
+									<div id="tab1" class="page-content tab active">
+										<!--LOGO-->
+										<div class="top-box">
+											<div class="logo"><img src="img/logo.jpg"></div>
+											<p class="kh">您身边的人都在用的个人名帖</p>
+										</div>
+										<!--搜索-->
+										<div class="search">
+											<from>
+												<!--搜索类型-->
+												<div class="select-type">
+													<p class="st-left">
+														<input type="radio" id="p-one" checked name="radio"> <label for="p-one">个人名帖</label>
+													</p>
+													<p class="st-right">
+														<input type="radio" id="p-more" name="radio"> <label for="p-more">企业名帖</label>
+													</p>
+																									
+												</div>
+												<div class="clear"></div>
+												<!--搜索-->
+												<div class="search-box">
+													<input type="text" class="s-box" placeholder="输入搜索内容" />
+													<!--热门标签-->
+													<div class="hot-label">
+														<p class="hl-title">热门标签：</p><a href="">家教</a><a href="">电工</a><a href="">火锅</a><a href="">干锅</a>
+													</div>
+													<div class="clear"></div>
+													<a href="searchList.html" class="search-now">搜索</a>
+												</div>												
+											</from>
+										</div>
+									</div>
+									<!--需求-->
+									<div id="tab2" class="page-content tab">
+										需求更能开发中！
+									</div>
+									<!--动态-->
+									<div id="tab3" class="page-content tab">
+									        <div class="navbar">							           
+									            <div class="buttons-row"><a href="#person" class="button tab-link active">个人</a><a href="#persons" class="button tab-link">企业</a></div>
+									        </div>
+									          <div data-page="index" class="page with-subnavbar">
+									            <div class="page-content">
+									              <div class="tabs">
+									                <div id="person" class="tab active">
+									                   		<div class="myself-block">
+								<div class="dynamic-one">
+				                         	<div class="dyna-top1">
+					        			<p class="dyna-toppic1">
+					        				<img src="img/h2.jpg">
+					        			</p>
+					        			<p class="dyna-text1">
+					        				<span class="dyna-name1">陈一发er</span>
+					        				<span class="dyna-time1">1小时前</span>
+					        			</p>
+					        		</div>
+				                         	<p class="dyn-title">天天遇到BUG，我也是醉了，睡你大爷起来排除BUG啦！</p>
+				                         	<p class="dyn-imgbox">
+				                         		<img src="img/h1.jpg" class="pb-standalone-dark">
+				                         		<img src="img/h2.jpg" class="pb-standalone-dark">
+				                         		<img src="img/h3.jpg" class="pb-standalone-dark">
+				                         		<img src="img/logo.jpg" class="pb-standalone-dark">
+				                         	</p>
+				                         	<div class="clear"></div>
+				                         	<p class="good-count">
+				                         		<a href="card/dynamic.html" id="turnTodynamic">
+				                         		<label class="left-count"><i class="iconfont icon-pinglun"></i>23</label>
+				                         		</a>				                         		
+				                         		<label class="left-good"><i class="iconfont icon-dianzan"></i> <span>356</span></label>		
+				                         	<dic class="clear"></dic>
+				                         	</p>
+				                         </div>
+								<div class="dynamic-one">
+				                         	<div class="dyna-top1">
+					        			<p class="dyna-toppic1">
+					        				<img src="img/h2.jpg">
+					        			</p>
+					        			<p class="dyna-text1">
+					        				<span class="dyna-name1">陈一发er</span>
+					        				<span class="dyna-time1">1小时前</span>
+					        			</p>
+					        		</div>
+				                         	<p class="dyn-title">天天遇到BUG，我也是醉了，睡你大爷起来排除BUG啦！</p>
+				                         	<div class="clear"></div>
+				                         	<p class="good-count">
+				                         		<a href="card/dynamic.html" id="turnTodynamic">
+				                         		<label class="left-count"><i class="iconfont icon-pinglun"></i>23</label>
+				                         		</a>				                         		
+				                         		<label class="left-good"><i class="iconfont icon-dianzan"></i> <span>356</span></label>		
+				                         	<dic class="clear"></dic>
+				                         	</p>
+				                         </div>				                         
+		</div>
+									                   
+									                </div>
+									                <div id="persons" class="tab">
+									                  <div class="myself-block">
+									                    <div class="dynamic-one">
+				                         	<div class="dyna-top1">
+					        			<p class="dyna-toppic1">
+					        				<img src="img/h4.jpg">
+					        			</p>
+					        			<p class="dyna-text1">
+					        				<span class="dyna-name1">四川网道科技发展有限公司</span>
+					        				<span class="dyna-time1">3小时前</span>
+					        			</p>
+					        		</div>
+				                         	<p class="dyn-title">天天遇到BUG，我也是醉了，睡你大爷起来排除BUG啦！</p>
+				                         	<div class="clear"></div>
+				                         	<p class="good-count">
+				                         		<a href="card/dynamic.html" id="turnTodynamic">
+				                         		<label class="left-count"><i class="iconfont icon-pinglun"></i>23</label>
+				                         		</a>				                         		
+				                         		<label class="left-good"><i class="iconfont icon-dianzan"></i> <span>356</span></label>		
+				                         	<dic class="clear"></dic>
+				                         	</p>
+				                         </div>	                 
+									                  </div>
+									                </div>
+									              </div>
+									            </div>
+									          </div>
+									</div>
+									
+									<!--个人中心-->
+									<div id="tab4" class="page-content tab">
+										<!--头像，名称，简介，二维码-->
+										<div class="my-pic-name-about-code-good-fans">
+											<!--上部-->
+											<div class="mypnacgf-top">
+												<div class="myt-left">
+													<img src="img/h3.jpg" class="edit-pic">
+												</div>
+												<div class="myt-center">
+													<span>周鑫</span>
+													<label>简介：我是一只小小小小鸟</label>
+												</div>
+												<div class="myt-right">
+													<i class="iconfont icon-erweima" id="create-popup"></i>
+												</div>
+											</div>
+											<!--上部-->
+											<div class="mypnacgf-bottom">
+												<a href="user/dynaList.html">1412<br /><span class="small-words">动态</span></a>
+												<a href="user/followList.html">48<br /><span class="small-words">关注</span></a>
+												<a href="user/fansList.html">200<br /><span class="small-words">粉丝</span></a>
+											</div>
+										</div>
+										<!--我的名帖-->
+										<a href="card/personalCard.html" class="ohter-menu">
+											<span class="iconbg"><i class="iconfont icon-wode1"></i></span>
+											<label class="menu-name">我的名帖</label>
+											<span class="icon-right"><i class="iconfont icon-you"></i></span>
+										</a>
+										<!--编辑名帖-->
+										<a href="user/editCard.html" class="ohter-menu">
+											<span class="iconbg"><i class="iconfont icon-bianji"></i></span>
+											<label class="menu-name">编辑名帖</label>
+											<span class="icon-right"><i class="iconfont icon-you"></i></span>
+										</a>
+										<!--我的相册，我的赞，我的回复-->
+										<p class="more-menu">
+											<a href="" class="ohter-menu-style">
+												<span class="iconbg"><i class="iconfont icon-xiangce"></i></span>
+												<label class="menu-name">我的相册</label>
+												<span class="icon-right"><i class="iconfont icon-you"></i></span>
+											</a>
+											<a href="" class="ohter-menu-style">
+												<span class="iconbg"><i class="iconfont icon-dongtai"></i></span>
+												<label class="menu-name">我的回复</label>
+												<span class="icon-right"><i class="iconfont icon-you"></i></span>
+											</a>
+											<a href="" class="ohter-menu-style">
+												<span class="iconbg"><i class="iconfont icon-dianzan"></i></span>
+												<label class="menu-name">我的点赞</label>
+												<span class="icon-right"><i class="iconfont icon-you"></i></span>
+											</a>
+										</p>
+										<!--退出当前账号-->
+										<a href="#" class="loginOut">退出当前账号</a>
+									</div>
+								</div>
+							</div>
+							<!--底部菜单-->
+							<div class="toolbar tabbar toolbar-bottom">
+								<div class="toolbar-inner">
+									<a href="#tab1" class="active tab-link">
+										<i class="iconfont icon-sousuoleimu"></i>
+										<span class="tabbar-label">搜贴</span>
+									</a>
+									<a href="#tab2" class="tab-link">
+										<i class="iconfont icon-xuqiu"></i>
+										<span class="tabbar-label">需求</span>
+									</a>
+									<a href="#tab3" class="tab-link">
+										<i class="iconfont icon-icons64x6455"></i>
+										<span class="tabbar-label">动态</span>
+									</a>
+									<a href="#tab4" class="tab-link">
+										<i class="iconfont icon-wode"></i>
+										<span class="tabbar-label">我的</span>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/framework7.min.js"></script>
+			<script type="text/javascript" src="js/my-app.js"></script>			
+			<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+	</body>
+</html>
